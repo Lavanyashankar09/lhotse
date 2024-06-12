@@ -85,6 +85,7 @@ from .voxpopuli import download_voxpopuli, prepare_voxpopuli
 from .wenet_speech import prepare_wenet_speech
 from .xbmu_amdo31 import download_xbmu_amdo31, prepare_xbmu_amdo31
 from .yesno import download_yesno, prepare_yesno
+from .test import download_test, prepare_test
 
 __all__ = [
     "download_adept",
@@ -217,4 +218,6 @@ __all__ = [
     "prepare_xbmu_amdo31",
     "download_yesno",
     "prepare_yesno",
+    "download_test",
+    "prepare_test",
 ]

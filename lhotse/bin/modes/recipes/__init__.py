@@ -86,3 +86,4 @@ from .voxpopuli import *
 from .wenet_speech import *
 from .xbmu_amdo31 import *
 from .yesno import *
+from .test import *
